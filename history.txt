@@ -8,3 +8,6 @@
 
 3. tsconfig
     - exactOptionalPropertyTypes
+
+4. tsconfig
+    - lib
