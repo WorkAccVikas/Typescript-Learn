@@ -6,7 +6,8 @@
     "outDir": "./dist",
 
     "noImplicitOverride": true,
-    // "noUncheckedIndexedAccess": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -23,9 +24,6 @@
     "declaration": true,
     "declarationMap": true,
 
-    // Stricter Typechecking Options
-    "exactOptionalPropertyTypes": true,
-
     // Style Options
     // "noImplicitReturns": true,
     // "noImplicitOverride": true,
@@ -35,7 +33,7 @@
     // "noPropertyAccessFromIndexSignature": true,
 
     // Recommended Options
-    "strict": true,
+    "strict": true
     // "noImplicitAny": false,
     // "strictNullChecks": false,
     // "strictFunctionTypes": false
