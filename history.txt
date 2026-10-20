@@ -2,3 +2,6 @@
     - https://www.youtube.com/watch?v=ZchBYjHFCC4
     - https://www.youtube.com/watch?v=kvP6hDXWy88
     - https://www.youtube.com/playlist?list=PLYvdvJlnTOjF6aJsWWAt7kZRJvzw-en8B
+
+2. tsconfig
+    - strict and it related config

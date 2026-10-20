@@ -10,6 +10,10 @@ class Visibility {
   hide() {
     this.visible = false;
   }
+
+  toggle() {
+    this.visible = !this.visible;
+  }
 }
 
 class MockVisibility extends Visibility {
@@ -17,9 +21,15 @@ class MockVisibility extends Visibility {
     console.log('Show');
   }
 
-  hide() {
+  override hide() {
     console.log('Hide');
   }
+
+  message() {
+    return 'hello';
+  }
+
+  override delete(): void {}
 }
 
 const x1 = new Visibility();

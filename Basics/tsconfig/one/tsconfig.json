@@ -5,8 +5,8 @@
     "rootDir": "./src",
     "outDir": "./dist",
 
-    // "noImplicitOverride": true,
-    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    // "noUncheckedIndexedAccess": true,
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -36,12 +36,23 @@
 
     // Recommended Options
     "strict": true,
-    "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true
+    // "noImplicitAny": false,
+    // "strictNullChecks": false,
+    // "strictFunctionTypes": false
+    // "strictBindCallApply": false
+    // "strictPropertyInitialization": false,
+    // "noImplicitThis": false
+    // "alwaysStrict": false
+    // "useUnknownInCatchVariables": false
+    // "strictBuiltinIteratorReturn": false
+
+    //
+    // "jsx": "react-jsx",
+    // "verbatimModuleSyntax": true,
+    // "isolatedModules": true,
+    // "noUncheckedSideEffectImports": true,
+    // "moduleDetection": "force",
+    // "skipLibCheck": true
   },
   "include": ["src/**/*"]
 }
